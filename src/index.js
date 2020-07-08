@@ -6,7 +6,7 @@ import Routes from './routes'
 
 const App = () =>{
   return(
-  <BrowserRouter>
+  <BrowserRouter forceRefresh={true}>
     <Routes/>
   </BrowserRouter>
   ) 

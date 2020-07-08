@@ -1,0 +1,17 @@
+.header {
+    background: #330033;
+    border-bottom: 1px solid #000000;
+}
+
+.headerDiv {
+    display: flex;
+}
+
+.logo {
+    flex-grow: 1;
+    padding-top: 15px;
+}
+
+.logo img {
+    width: 45px;
+}
